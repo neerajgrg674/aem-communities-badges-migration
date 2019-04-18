@@ -5,7 +5,8 @@ This migration is required for a customer upgrading to 6.4 or higher version fro
 pointing to old paths(/etc).
 
 Pre-requisite: 
-  - Make sure old badges are present before running migration script.
+  - Make sure old badges images are present before running migration script.
+  - Users should not be assigned any new badges prior migration as it might conflict with old badges during migration.
 
 Steps to migrate :
 

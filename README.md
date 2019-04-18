@@ -27,7 +27,7 @@ Steps to migrate :
    - Make a HTTP POST call to http://<host>:<port>/libs/social/badges/badgeResourceValidationServlet with ADMIN credentials.
    - Check the logs for any error in log file created in 3c.
    
-6   Delete Old Badge - (If validation is passed for all Users in step 5)
+6. Delete Old Badge - (If validation is passed for all Users in step 5)
     
    - Make a HTTP POST call to http://<host>:<port>/libs/social/badges/badgeResourceDeleteServlet with ADMIN credentials.
    - Check the logs for any error in log file created in 3c.

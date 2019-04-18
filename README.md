@@ -1,4 +1,4 @@
-AEM Communities Upgrade Badges Migration
+# communities-badges-migration
 
 Communities Badges migration migrates badges paths from /etc/community/badging/images to new paths (/libs/community/badging/images, /content/community/badging/images).
 This migration is required for a customer upgrading to 6.4 or higher version from 6.3 or lower version. If this migration is not done, User's old badges would continue
@@ -21,7 +21,6 @@ Steps to migrate :
     
    - Make a HTTP POST call to http://<host>:<port>/libs/social/badges/badgeResourceCreateServlet with ADMIN credentials.
    - Check the logs for any error in log file created in 3c.
-   
    
 5. Validate Badges
     
